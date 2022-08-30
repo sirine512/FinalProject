@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="index.html" class="logo"><img src="" />Flix</a>
+          <div class="navCont">
+            <ul class="list">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./movies.html">Movies</a></li>
+              <li><a href="./series.html">Series</a></li>
+              <li><a href="./kids.html">Kids</a></li>
+            </ul>
+            </div>
+          <div class="end">
+          <div class="searchB">
+            <input type="text" class="search" placeholder="Search..." />
+           <button class="search-btn"> </button>
+          </div>
+              <div class="profile">
+                <img src="./img/profil.png" class="profileImg" >
+                <div class="dropdown">
+                <button class="dropbtn">
+                <i class="fa-solid fa-sort-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">My account</a>
+                  <a href="#">Help</a>
+                  <a href="./login.html">Logout</a>
+                </div></div>
+
+          </div>
+          <button class="menu"></button>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="contact">
+          <h1> Contact</h1>
+        <form class="contact-content">
+        <div>
+          <h4>Name  </h4>
+            <input type="text" name="first name" class="info" placeholder="Enter your name" />
+  </div>
+      <div>
+            <h4>Email  </h4>
+            <input type="email" name="Email" class="info" placeholder="Enter your Email"/>
+      </div>
+            
+      <div class="msg">
+            <h4>Message  </h4>
+            <textarea name="Message" placeholder="Enter your message here..." cols="20" rows="10"></textarea> 
+      </div>
+      
+           <button id="test" type="submit" class="contact-btn">Submit</button>
+      </form>
+
+      </main>
+      
+     <script src="./js/contact.js"></script>
+     <script src="./js/scriptFile.js"></script>
+      
+</body>
+</html>

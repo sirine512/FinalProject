@@ -1,0 +1,91 @@
+
+
+ /**********exp:thecrown*************/
+ .firstPart{
+    background: url(https://cutewallpaper.org/21/the-crown-wallpaper/The-Crown-Season-2-Wallpaper,-HD-TV-Series-4K-Wallpapers-.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 80vh;
+    top: 0;
+ }
+ .descrip{
+
+    color: antiquewhite;
+    width: 30%;
+    padding: 80px;
+    padding-top: 120px;
+
+ }
+ .descrip h1{
+    padding-bottom: 20px;
+    font-size: 3em;
+ }
+ .dis{
+    padding-left: 10px;
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: 10px;
+    padding-top: 15px;
+ }
+ .credit{
+    color: gray;
+    font-size: 0.8em;
+    padding-left: 15px;
+    
+ }
+ .stars{
+    display: inline;
+    padding-left: 15px;
+    
+ }
+ .star{
+    height: 15px;
+   
+ }
+ .play-btn{
+background: url(https://www.odedtech.com/images/play1.png);
+background-size: cover;
+background-repeat: no-repeat;
+height: 90px;
+width: 120px;
+margin-left: 45%;
+position: absolute;
+top: 250px;
+border: none;
+border-radius: 50%;
+cursor: pointer;
+ }
+
+ .trailer{
+    position: absolute;
+    background:rgb(0, 0, 0,0.9);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    
+    display:none;
+ }
+ .trailer.showvid{
+    display: block;
+ }
+ .trailer.hidevid{
+    display: none;
+ }
+ .vid{
+    margin-left: 23%;
+    margin-top: 10%;
+ }
+.exit{
+    height: 30px;
+    width: 30px;
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+}
